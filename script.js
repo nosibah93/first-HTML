@@ -1,11 +1,12 @@
 
 
-
+//function convert length
 function LengthConverter(num) {
 	var x = document.getElementById("inputm")
 	var z = x.value*0.000621371192
   document.getElementById("outputMile").innerHTML=z;
 }
+//function convert from meter to feet
 function LengthConverter2(num) {
 	var x = document.getElementById("inputm")
 	var z = x.value*3.2808399
