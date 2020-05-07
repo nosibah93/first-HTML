@@ -18,11 +18,19 @@ p {
   font-size: 140%;
   font-weight: bold;
 }
+#array{
+  border-style: outset;
+}
 
 #button1{
 	color: black;
 	font-weight: bold;
 	font-size: 60%;
+}
+#button2{
+  color: red;
+  font-weight: bold;
+  font-size: 60%;
 }
 
 #outputFeet{
