@@ -2,35 +2,50 @@
 
 <html>
 
-<title> Meters to everything Length Converter</title>
+<title > Meters to everything Length Converter</title>
 
-<link rel="style" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <script type="text/javascript" src="script.js"></script>
 
 <body>
+<br>
 
 <h1>The Best Length Converter</h1>
 
-<p>Type a value in the Meter field to convert the value to ( Miles /  Inch / Feet & CM )</p>
+<p id="one">Type a value in the Meter field to convert the value to </p><p id="two">( Miles /  Inches / Feets & CMs )</p>
 
-<p>
+<p id="three">
   <label>	Meters  </label>
 
   <input id="inputm" type="number" placeholder="Meters" >
+
+  <button onclick="LengthConverter(),LengthConverter2(),LengthConverter3(),LengthConverter4()" id="button1" type="button" > Converte </button>
+=======
   <button onclick="convertNumber(), myarray()" id="button1" type="button" > Converte </button>
   
 
+
 </p>
-
 <ul>
-
-<p>Mile : <span id="outputMile"> </span></p>
-<p>Feet : <span id="outputFeet"> </span></p>
-<p>Inch : <span id="outputInch"> </span></p>
-<p>CM : <span id="outputCM"> </span></p>
-
+<p >Mile : <span id="outputMile"> </span></p>
+<p >Feet : <span id="outputFeet"> </span></p>
+<p >Inch : <span id="outputInch"> </span></p>
+<p >CM : <span id="outputCM"> </span></p>
  </ul>
+
+ <style>
+h1 {text-align: center;}
+#one{text-align: center;}
+#two {text-align: center;}
+#three{text-align: center;}
+
+</style>
+=======
 <p id="array"></p>
 </body>
 
+
+</body>
+</div>
   </html>

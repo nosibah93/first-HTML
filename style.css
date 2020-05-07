@@ -1,3 +1,48 @@
-#inputm {
-  color: yellow;
+
+body {
+  background-image: url("https://www.squarefootagearea.com/wp-content/uploads/2018/03/measurement-millimeter-centimeter-meter-162500.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+h1 {
+  color: black;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+p {
+  color: black;
+  font-family: courier;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+#button1{
+	color: black;
+	font-weight: bold;
+	font-size: 60%;
+}
+
+#outputFeet{
+	color: red;
+	font-size:100%;
+}
+#outputInch{
+	color: red;
+font-size:100%;
+}
+#outputMile{
+	color: red;
+  font-size:100%;
+}
+#outputCM{
+	color: red;
+  font-size:100%;
+}
+#two{
+	color : red;
+	font-size: 160%;
+  font-weight: bold;
 }
