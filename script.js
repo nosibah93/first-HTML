@@ -42,7 +42,7 @@
 // 	var z = array[3]
 //   document.getElementById("outputCM").innerHTML=z;
 // }
-
+//declare each function to iterating 
 function each(coll, f) {
   if (Array.isArray(coll)) {
     for (var i = 0; i < coll.length; i++) {
@@ -55,7 +55,7 @@ function each(coll, f) {
   }
 }
 
-
+//declare object to organize our functions
 var object = {
 mile: function () {
 	var userInput = document.getElementById("inputm")
@@ -75,16 +75,16 @@ inch:function () {
 } ,
 cm:function () {
  	var userInput = document.getElementById("inputm")
-	var convertm = userInput.value*1000
+	var convertm = userInput.value*100
   document.getElementById("outputCM").innerHTML=convertm;
 }, 
 };
-
+//declare myarray function to our data in array and invoke it whene user click in vonvert button .
 function myarray() {
-  var array = [" 1 Mile = 0.000621371192 meter  ", " 1 Feet = 3.2808399 Meter " , " 1 Inch = 39.3700787 Meter "," 1 CM = 0.001 Meter"]; 
+  var array = [" 1 Meter = 0.000621371192 Mile  ", " 1 Meter = 3.2808399 Feet " , " 1 Meter = 39.3700787 Inch "," 1 Meter = 100 CM"]; 
   document.getElementById("array").innerHTML = array;
 }
-
+//
 function convertNumber () {
 	 
 	each (object , function (value , key) {
